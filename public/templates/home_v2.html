@@ -1,0 +1,182 @@
+<div class="flat turquoise parent">
+	<div class="flat container">
+
+		<div class="ui grid">
+			<div class="twelve wide column">
+				
+				<div class="ui grid">
+					<div class="sixteen wide column">
+						<a class="flat pinut" href="{{social_network.link}}" target="_blank" ng-repeat="social_network in infos_cv.social_network">
+							<div class="flat {{getColorItem($index + 1)}} items pin rounded">
+								<div class="item">
+									<div class="meta">
+										<i class="large {{social_network.icon}} icon"></i>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="flat delimit">
+
+					<div class="ui centered grid">
+						<div class="three wide column">
+							<div class="flat items pin">
+								<div class="item">
+									<div class="meta">
+										<div class="locality" ng-if="infos_cv.locality != ''"><a href="http://maps.google.com/maps?q={{infos_cv.locality}}" target="_blank"><i class="marker icon"></i> {{infos_cv.locality}}</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="five wide column">
+							<div class="flat items pin">
+								<div class="item">
+									<div class="meta">
+										<div class="phone" ng-if="infos_cv.phone != ''"><a href="tel:{{infos_cv.phone}}"><i class="phone icon"></i> {{infos_cv.phone}}</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="five wide column">
+							<div class="flat items pin">
+								<div class="item">
+									<div class="meta">
+										<div class="mail" ng-if="infos_cv.mail != ''"><a href="mailto:{{infos_cv.mail}}"><i class="mail icon"></i> {{infos_cv.mail}}</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="three wide column">
+							<div class="flat items pin">
+								<div class="item">
+									<div class="meta">
+										<div class="birthday" ng-if="infos_cv.birthday != ''"><a><i class="calendar icon"></i> {{infos_cv.birthday}} {{infos_lang.years}}</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="flat orange items">
+						<div class="item">
+							<div class="header">{{infos_cv.headline}}</div>
+							<div class="description">{{infos_cv.summary}}</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="flat items pin">
+					<div class="item">
+						<div class="meta delimit">
+							<div class="title left font"><a><i class="travel icon"></i> {{infos_lang.experience}}</a></div>
+						</div>
+					</div>
+				</div>
+				<ul class="flat clouds items">
+					<li ng-repeat="experience in infos_cv.experience" class="item">
+						<div class="date">{{experience.start_date | date: 'MMM yyyy'}} {{infos_lang.to}} <span ng-if="experience.end_date == null">-</span><span ng-if="experience.end_date != null">{{experience.end_date | date: 'MMM yyyy'}}</span></div>
+						<div class="header">{{experience.name}} - <span class="sub-title" ng-bind-html="safeHtml(experience.status)"></span></div>
+						<div class="description" ng-bind-html="safeHtml(experience.short_description)"></div>
+					</li>
+				</ul>
+
+				<div class="flat blue items">
+					<div class="item" ng-repeat="education in infos_cv.education">
+						<div class="header">{{education.name}}</div>
+						<div class="description" ng-bind-html="safeHtml(education.status)"></div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="four wide column">
+				
+				<div class="flat items pin">
+					<div class="item">
+						<div class="image"><img ng-src="{{infos_cv.pictureUrl}}"></div>
+					</div>
+				</div>
+
+				<div class="flat items pin">
+					<div class="item">
+						<div class="meta">
+							<div class="title"><a><i class="user icon"></i> {{infos_cv.firstName}} {{infos_cv.lastName}}</a></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="flat blue dark items">
+					<div class="item" ng-repeat="infos_skill in infos_cv.skills">
+						<div class="header">{{infos_lang[infos_skill.category]}}</div>
+						<div class="flat items pin cadre" ng-repeat="skill in infos_skill.list">
+							<div class="item">
+								<div class="sub-title">{{skill.name}}</div>
+								<div class="progress">
+									<div class="progress-bar" style="width: {{skill.advancement}}%">{{skill.advancement}}%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="ui grid">
+
+	<div class="sixteen wide mobile six wide tablet six wide computer column">
+
+		<div class="ui container cadre" ng-if="infos_cv.language.length > 0">
+			<h3 class="ui header">
+				<i class="comments outline icon"></i>
+				<div class="content">
+					{{infos_lang.language}}
+				</div>
+			</h3>
+			<div class="ui centered yellow cards">
+				<div class="card">
+					<div class="content">
+						<div class="ui relaxed divided list">
+							<div class="item" ng-repeat="lang in infos_cv.language">
+								<div class="content">
+									<a class="header">{{lang.name}}</a>
+									<div class="description">{{lang.advancement}}</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ui container cadre" ng-if="infos_cv.interest.length > 0">
+			<h3 class="ui header">
+				<i class="heartbeat icon"></i>
+				<div class="content">
+					{{infos_lang.interest}}
+				</div>
+			</h3>
+			<div class="ui centered red cards">
+				<div class="card">
+					<div class="content">
+						<div class="ui relaxed divided list">
+							<div class="item" ng-repeat="interest in infos_cv.interest">
+								<i ng-if="typeof(interest.icon) != 'undefined'" class="large {{interest.icon}} middle aligned icon"></i>
+								<div class="content">
+									<a class="header">{{interest.name}}</a>
+									<div class="description">{{interest.description}}</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>

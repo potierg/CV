@@ -1,0 +1,373 @@
+{
+	"pictureUrl" : "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAuOAAAAJGNhOGVlNzg5LTBjYzAtNGE4NS04Yjc2LWE1MWUzNTczZjU5MQ.jpg",
+	"birthday" : 863474400000,
+	"phone" : "+33 6 33 81 77 03",
+	"mail" : "guillaume.potier@epitech.eu",
+	"locality" : "Paris",
+	"headline" : "Développeur Temps-Plein",
+	"summary" : "Passioné par le domaine de l'informatique depuis toujours, j'aime m'informer et me tenir à jour sur tout ce qui touche de prés ou de loin à l'informatique, que ce soit la mise en circulation du dernier smartphone ou encore la création d'une techno révolutionnaire. Malgrés pour parcours scolaire difficile, j'ai su m'en sortir la téte haute et ces difficultés ont fait de moi l'homme que je suis aujourd'hui, un travailleur sérieux et concerné. Je suis toujours ouvert à toutes proposition et chalenges, n'hésitez surtout pas à me contacter.",
+	"social_network" : [
+		{
+			"color" : "linkedin",
+			"link" : "https://www.linkedin.com/in/guillaume-potier-a3713a92/",
+			"icon" : "linkedin square",
+			"name" : "guillaume-potier-a3713a92"
+		}
+	],
+	"experience" : [
+		{
+			"link" : "",
+			"name" : "RS2I",
+			"status" : "Developpeur Front End Angular 4",
+			"logo" : "./photos/RS2i.jpg",
+			"start_date" : 1504508400000,
+			"end_date" : 1519837200000,
+			"locality": "Levalois",
+			"short_description" : "<p>RS2i est une société du groupe Neurone. Ma mission à été de développer une application Web pour le client 'OPCALIM'.<br/><br/> Au commencement, je me suis occupé de créer le modéle de la base de données, puis ait créer des scripts pour parser des fichier Excel remis par OPCALIM afin de remplir le jeu de données. Mon travail principal à été de réaliser selon des spécifications bien précise, les differents écrans de l'appli.</p>",
+			"description" : "<p>RS2i est une société du groupe Neurone. Ma mission à été de développer une application Web pour le client 'OPCALIM'.<br/><br/> Au commencement, je me suis occupé de créer le modéle de la base de données, puis ait créer des scripts pour parser des fichier Excel remis par OPCALIM afin de remplir le jeu de données. Mon travail principal à été de réaliser selon des spécifications bien précise, les differents écrans de l'appli.</p>",
+			"skills" : [
+				"Angular 4 & Typescript",
+				"Material"
+			]
+		},
+		{
+			"link" : "https://www.flatswire.com/",
+			"name" : "FlatSwire",
+			"status" : "Developpeur Full Stack PHP",
+			"logo" : "./photos/FLATSWIRE.png",
+			"start_date" : 1460930400000,
+			"end_date" : 1471557600000,
+			"locality": "Paris",
+			"short_description" : "<p>FlatsWire est une boîte à outils complète conçue pour une gestion de location de vacances rentable et efficace. Accès à un logiciel de gestion immobilière, à un logiciel de gestion locative et à un gestionnaire de canaux, le tout combiné dans une seule application.</br></br>Mon travail consiste à réaliser une application de gestion de réservation saisoniére en équipe. Je me suis aussi occupé d'installer un serveur Grafana afin d'intégrer des graphes dans l'application.</p>",
+			"description" : "<p>FlatsWire est une boîte à outils complète conçue pour une gestion de location de vacances rentable et efficace. Accès à un logiciel de gestion immobilière, à un logiciel de gestion locative et à un gestionnaire de canaux, le tout combiné dans une seule application.</br></br>Mon travail consiste à réaliser une application de gestion de réservation saisoniére en équipe. Je me suis aussi occupé d'installer un serveur Grafana afin d'intégrer des graphes dans l'application.</p>",
+			"skills" : [
+				"PHP 5 & CodeIgniter",
+				"CouchBase",
+				"Grafana"
+			]
+		},
+		{
+			"link" : "http://global-pictures.tv",
+			"name" : "Global Pictures",
+			"status" : "Administrateur Systéme et Developpeur WEB",
+			"logo" : "./photos/GLOBALPICTURE.png",
+			"start_date" : 1443650400000,
+			"end_date" : 1459375200000,
+			"locality": "Braine le Comte - Belgique",
+			"short_description" : "<p>Global Picture est une société spécialisée dans l'info, le sport et le divertissement en production, post-production et sous-traitants.</br></br> Mon travail à été de réalisé pour l'entreprise leur site vitrine et d'installer, configurer et maintenir l'ensemble de leur service d'information (SFTP, MAIL, NAS)</p>",
+			"description" : "<p>Global Picture est une société spécialisée dans l'info, le sport et le divertissement en production, post-production et sous-traitants.</br></br> Mon travail à été de réalisé pour l'entreprise leur site vitrine et d'installer, configurer et maintenir l'ensemble de leur service d'information (SFTP, MAIL, NAS)</p>",
+			"skills" : [
+				"Project Management",
+				"PHP 5 & Symfony",
+				"HTML & CSS Designer",
+				"System Administrator",
+				"Network",
+				"SFTP",
+				"Server Mail"
+			]
+		},
+		{
+			"link" : "http://www.groupehn.com/wordpress/fr/",
+			"name" : "GroupeHN",
+			"status" : "Gestionnaire de projet et développeur JAVA",
+			"logo" : "./photos/HN.png",
+			"start_date" : 1409522400000,
+			"end_date" : 1419980400000,
+			"locality": "Bercy",
+			"short_description" : "<p>Le Groupe HN facilite les évolutions de carrière et contribue au renforcement des compétences de ses collaborateurs. Il propose une large gamme de services aux principaux acteurs des secteurs de la banque, de l'assurance, de l'industrie et des services.</p><br/><p>Mon travail est de travailler au développement et à l'amélioration d'un outil de supervision et traitement des flux destiné à un client, de le contruire et d'ajouter diverse fonctionalité suivant la demande du client.</p>",
+			"description" : "<p>Le Groupe HN facilite les évolutions de carrière et contribue au renforcement des compétences de ses collaborateurs. Il propose une large gamme de services aux principaux acteurs des secteurs de la banque, de l'assurance, de l'industrie et des services.</p><br/><p>Mon travail est de travailler au développement et à l'amélioration d'un outil de supervision et traitement des flux destiné à un client, de le contruire et d'ajouter diverse fonctionalité suivant la demande du client.</p>",
+			"skills" : [
+				"Project Management",
+				"Architectural designer",
+				"JAVA EE",
+				"Servlet Container Tomcat",
+				"Struts",
+				"Hibernate"
+			]
+		}
+	],
+	"education" : [
+		{
+			"name" : "EPITECH",
+			"status" : "Expert en Technologies de l'information",
+			"locality" : "Paris",
+			"logo" : "./photos/EPITECH.png",
+			"start_date" : 1372636800000,
+			"end_date" : null,
+			"description" : "",
+			"degree" : [
+				{
+					"name" : "Bachelor en Technologies de l'information - BAC +3"
+				}
+			]
+		},
+		{
+			"name" : "Université Laval",
+			"status" : "Baccalauréat en génie logiciel - BAC +4",
+			"locality" : "Quebec - Canada",
+			"more" : "Programme d'échange",
+			"logo" : "./photos/ULAVAL.jpg",
+			"start_date" : 1471996800000,
+			"end_date" : 1493596800000,
+			"description" : "",
+			"degree" : [
+				{
+					"name" : "Certificat en génie logiciel - Bac +4"
+				}
+			]
+		}
+	],
+	"skills_pictures" : [
+		{
+			"name" : "html",
+			"image" : "./photos/atouts/HTML.png"
+		},
+		{
+			"name" : "css",
+			"image" : "./photos/atouts/CSS.png"
+		},
+		{
+			"name" : "js",
+			"image" : "./photos/atouts/JS.png"
+		},
+		{
+			"name" : "ts",
+			"image" : "./photos/atouts/TS.png"
+		},
+		{
+			"name" : "nodejs",
+			"image" : "./photos/atouts/NODEJS.png"
+		},
+		{
+			"name" : "angular",
+			"image" : "./photos/atouts/ANGULAR.png"
+		},
+		{
+			"name" : "php5",
+			"image" : "./photos/atouts/PHP.png"
+		},
+		{
+			"name" : "symfony3",
+			"image" : "./photos/atouts/SYMFONY.png"
+		},
+		{
+			"name" : "codeigniter",
+			"image" : "./photos/atouts/CODEIGNITER.png"
+		},
+		{
+			"name" : "manager",
+			"image" : "./photos/atouts/MANAGER.jpg"
+		},
+		{
+			"name" : "json",
+			"image" : "./photos/atouts/JSON.png"
+		},
+		{
+			"name" : "mongodb",
+			"image" : "./photos/atouts/MONGODB.png"
+		},
+		{
+			"name" : "couchbase",
+			"image" : "./photos/atouts/COUCHBASE.png"
+		},
+		{
+			"name" : "grafana",
+			"image" : "./photos/atouts/GRAFANA.jpg"
+		},
+		{
+			"name" : "camunda",
+			"image" : "./photos/atouts/CAMUNDA.png"
+		},
+		{
+			"name" : "mysql",
+			"image" : "./photos/atouts/MYSQL.png"
+		},
+		{
+			"name" : "sqlserver",
+			"image" : "./photos/atouts/SQLSERVER.jpg"
+		},
+		{
+			"name" : "C",
+			"image" : "./photos/atouts/C.png"
+		},
+		{
+			"name" : "C++",
+			"image" : "./photos/atouts/C++.png"
+		},
+		{
+			"name" : "C#",
+			"image" : "./photos/atouts/CS.png"
+		},
+		{
+			"name" : "Python",
+			"image" : "./photos/atouts/PYTHON.png"
+		},
+		{
+			"name" : "git",
+			"image" : "./photos/atouts/GIT.png"
+		},
+		{
+			"name" : "svn",
+			"image" : "./photos/atouts/SVN.png"
+		},
+		{
+			"name" : "windows",
+			"image" : "./photos/atouts/WINDOWS.png"
+		},
+		{
+			"name" : "linux",
+			"image" : "./photos/atouts/LINUX.png"
+		},
+		{
+			"name" : "android",
+			"image" : "./photos/atouts/ANDROID.png"
+		},
+		{
+			"name" : "AWS",
+			"image" : "./photos/atouts/AWS.png"
+		},
+		{
+			"name" : "java",
+			"image" : "./photos/atouts/JAVA.png"
+		},
+		{
+			"name" : "Struts",
+			"image" : "./photos/atouts/STRUTS.jpeg"
+		},
+		{
+			"name" : "Hibernate",
+			"image" : "./photos/atouts/HIBERNATE.png"
+		}
+	],
+	"skills" : [
+		{
+			"category" : "programmation",
+			"list" : [
+				{
+					"name" : "Javascript (nodeJs) / TypeScript",
+					"advancement" : "95"
+				},
+				{
+					"name" : "HTML/CSS",
+					"advancement" : "98"
+				},
+				{
+					"name" : "PHP",
+					"advancement" : "90"
+				},
+				{
+					"name" : "C / C+ / C++",
+					"advancement" : "80"
+				},
+				{
+					"name" : "JAVA / C#",
+					"advancement" : "70"
+				}
+			]
+		},
+		{
+			"category" : "frameworks_library",
+			"list" : [
+				{
+					"name" : "Jquery / CSS (boostrap, materialize, semantic-ui)",
+					"advancement" : "95"
+				},
+				{
+					"name" : "Angular 1 / Angular 2 / Backbones",
+					"advancement" : "90"
+				},
+				{
+					"name" : "ReactJs / Laravel (eloquent) / Slim",
+					"advancement" : "75"
+				}
+			]
+		},
+		{
+			"category" : "tools",
+			"list" : [
+				{
+					"name" : "Npm / gulp / phonegap & cordova & ionic",
+					"advancement" : "95"
+				},
+				{
+					"name" : "Composer / Travis / Sass",
+					"advancement" : "95"
+				},
+				{
+					"name" : "Git / SVN",
+					"advancement" : "90"
+				},
+				{
+					"name" : "Babel / Aws / Heroku / Docker",
+					"advancement" : "85"
+				}
+			]
+		},
+		{
+			"category" : "system",
+			"list" : [
+				{
+					"name" : "Windows / Unix",
+					"advancement" : "95"
+				},
+				{
+					"name" : "iOs",
+					"advancement" : "80"
+				}
+			]
+		},
+		{
+			"category" : "other",
+			"list" : [
+				{
+					"name" : "Chargé de projet IT",
+					"advancement" : "90"
+				},
+				{
+					"name" : "UPEDU",
+					"advancement" : "85"
+				},
+				{
+					"name" : "Scrum / XP",
+					"advancement" : "80"
+				}
+			]
+		}
+	],
+	"language" : [
+		{
+			"name" : "Anglais",
+			"advancement" : "Professionnel",
+			"image" : "./photos/flag_france.svg"
+		},
+		{
+			"name" : "Français",
+			"advancement" : "Langue maternelle",
+			"image" : "./photos/flag_english.jpg"
+		}
+	],
+	"interest" : [
+		{
+			"icon" : "hand spock",
+			"name" : "Les films de fantasy et sciences fictions"
+		},
+		{
+			"icon" : "TV",
+			"name" : "Série Américaine et Animation Japonaise"
+		},
+		{
+			"icon" : "Book",
+			"name" : "Comics et Mangas"
+		},
+		{
+			"icon" : "diamond",
+			"name" : "La Physique",
+			"description" : ""
+		},
+		{
+			"icon" : "game",
+			"name" : "Les jeux Video",
+			"description" : ""
+		}
+	]
+}

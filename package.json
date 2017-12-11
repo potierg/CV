@@ -1,0 +1,31 @@
+{
+  "name": "cvme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-i18n": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "angulartics": "^1.4.0",
+    "angulartics-google-analytics": "^0.4.0",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-connect-php": "0.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.98.2",
+    "oclazyload": "^1.1.0",
+    "os": "^0.1.1",
+    "phantom": "^4.0.2",
+    "semantic-ui": "^2.2.10",
+    "shelljs": "^0.7.7"
+  }
+}

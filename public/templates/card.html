@@ -1,0 +1,65 @@
+<div class="card-panel grey lighten-5">
+	<div class="container">
+		<div class="flat clouds items">
+			<div class="item">
+				<div class="flat">
+					<div class="header"><span class="sub-title" ng-bind-html="safeHtml(infos_cv.headline)"></span></div>
+				</div>
+				<div class="ui grid">
+					<div class="four wide column">
+						
+						<div class="flat items pin">
+							<div class="item">
+								<div class="image"><img ng-src="{{infos_cv.pictureUrl}}"></div>
+							</div>
+						</div>
+
+						<div class="flat items pin">
+							<div class="item">
+								<div class="meta">
+									<div class="title"><a>{{infos_cv.firstName}} {{infos_cv.lastName}}</a></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="twelve wide column">
+
+						<div class="flat">
+							<div class="flat items pin">
+									<div class="item">
+										<div class="meta">
+											<div class="locality" ng-if="infos_cv.locality != ''"><a href="http://maps.google.com/maps?q={{infos_cv.locality}}" target="_blank"><i class="marker icon"></i> {{infos_cv.locality}}</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="flat items pin">
+									<div class="item">
+										<div class="meta">
+											<div class="phone" ng-if="infos_cv.phone != ''"><a href="tel:{{infos_cv.phone}}"><i class="phone icon"></i> {{infos_cv.phone}}</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="flat items pin">
+									<div class="item">
+										<div class="meta">
+											<div class="mail" ng-if="infos_cv.mail != ''"><a href="mailto:{{infos_cv.mail}}"><i class="mail icon"></i> {{infos_cv.mail}}</a></div>
+										</div>
+									</div>
+								</div>
+								<div class="flat items pin">
+									<div class="item">
+										<div class="meta">
+											<div class="birthday" ng-if="infos_cv.birthday != ''"><a><i class="calendar icon"></i> {{infos_cv.birthday}} {{infos_lang.years}}</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

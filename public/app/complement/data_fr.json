@@ -1,11 +1,11 @@
 {
-	"pictureUrl" : "https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAuOAAAAJGNhOGVlNzg5LTBjYzAtNGE4NS04Yjc2LWE1MWUzNTczZjU5MQ.jpg",
+	"pictureUrl" : "https://dam.malt.com/1302b679-1533-4b4a-8fa3-519724e44c30?gravity=face&func=face&face_margin=60&w=440&h=440&force_format=webp",
 	"birthday" : 863474400000,
 	"phone" : "+33 6 33 81 77 03",
 	"mail" : "guillaume.potier@epitech.eu",
-	"locality" : "Paris",
-	"headline" : "Développeur Temps-Plein",
-	"summary" : "Passioné par le domaine de l'informatique depuis toujours, j'aime m'informer et me tenir à jour sur tout ce qui touche de prés ou de loin à l'informatique, que ce soit la mise en circulation du dernier smartphone ou encore la création d'une techno révolutionnaire. Malgrés pour parcours scolaire difficile, j'ai su m'en sortir la téte haute et ces difficultés ont fait de moi l'homme que je suis aujourd'hui, un travailleur sérieux et concerné. Je suis toujours ouvert à toutes proposition et chalenges, n'hésitez surtout pas à me contacter.",
+	"locality" : "Paris - France",
+	"headline" : "Développeur Fullstack",
+	"summary" : "Passionné par le domaine de l'informatique depuis toujours, j'aime m'informer et me tenir à jour sur tout ce qui touche de près ou de loin à l'informatique, que ce soit la mise en circulation du dernier smartphone ou encore la création d'une techno révolutionnaire. Malgré un parcours scolaire difficile, j'ai su m'en sortir la tête haute et ces difficultés ont fait de moi l'homme que je suis aujourd'hui, un travailleur sérieux et concerné. Je suis toujours ouvert à toutes propositions et challenges, n'hésitez surtout pas à me contacter.",
 	"social_network" : [
 		{
 			"color" : "linkedin",
@@ -16,6 +16,27 @@
 	],
 	"experience" : [
 		{
+			"link" : "https://fr.myposeo.com/",
+			"name" : "G4 Interactive (Webedia - Jellyfish)",
+			"status" : "Developpeur Fullstack (Angular/Laminas)",
+			"logo" : "./photos/MYPOSEO.png",
+			"start_date" : 1520204400000,
+			"end_date" : 1640905200000,
+			"locality": "Levallois Perret",
+			"short_description" : "<p>Myposeo est une plateforme SEO en ligne d'analyse, de suivi du positionnement & du référencement naturel et payant de vos sites web sur Google.<br/><br/>Pendant 4 ans, j'ai fait partie de l'équipe des développeurs, notre travail consistait à faire évoluer l'application en permanence selon les demandes de la direction et des clients.</p>",
+			"description" : "<p>Myposeo est une plateforme SEO en ligne d'analyse, de suivi du positionnement & du référencement naturel et payant de vos sites web sur Google.<br/><br/>Pendant 4 ans, j'ai fait partie de l'équipe des développeurs, notre travail consistait à faire évoluer l'application en permanence selon les demandes de la direction et des clients.</p>",
+			"skills" : [
+				"Angular JS",
+				"Angular >= v8",
+				"Typescript",
+				"PHP",
+				"Laminas",
+				"Redis",
+				"MySQL",
+				"MongoDb"
+			]
+		},
+		{
 			"link" : "",
 			"name" : "RS2I",
 			"status" : "Developpeur Front End Angular 4",
@@ -23,8 +44,8 @@
 			"start_date" : 1504508400000,
 			"end_date" : 1519837200000,
 			"locality": "Levalois",
-			"short_description" : "<p>RS2i est une société du groupe Neurone. Ma mission à été de développer une application Web pour le client 'OPCALIM'.<br/><br/> Au commencement, je me suis occupé de créer le modéle de la base de données, puis ait créer des scripts pour parser des fichier Excel remis par OPCALIM afin de remplir le jeu de données. Mon travail principal à été de réaliser selon des spécifications bien précise, les differents écrans de l'appli.</p>",
-			"description" : "<p>RS2i est une société du groupe Neurone. Ma mission à été de développer une application Web pour le client 'OPCALIM'.<br/><br/> Au commencement, je me suis occupé de créer le modéle de la base de données, puis ait créer des scripts pour parser des fichier Excel remis par OPCALIM afin de remplir le jeu de données. Mon travail principal à été de réaliser selon des spécifications bien précise, les differents écrans de l'appli.</p>",
+			"short_description" : "<p>RS2i est une société du groupe Neurone. Ma mission fut de développer une application Web pour le client 'OPCALIM'.<br/><br/> Au commencement, je me suis occupé de créer le modèle de la base de données, puis j'ai créé des scripts pour parser des fichiers Excel remis par OPCALIM afin de remplir le jeu de données. J'ai réalisé selon des spécifications bien précises, les differents écrans de l'appli.</p>",
+			"description" : "<p>RS2i est une société du groupe Neurone. Ma mission fut de développer une application Web pour le client 'OPCALIM'.<br/><br/> Au commencement, je me suis occupé de créer le modèle de la base de données, puis j'ai créé des scripts pour parser des fichiers Excel remis par OPCALIM afin de remplir le jeu de données. J'ai réalisé selon des spécifications bien précises, les differents écrans de l'appli.</p>",
 			"skills" : [
 				"Angular 4 & Typescript",
 				"Material"
@@ -38,8 +59,8 @@
 			"start_date" : 1460930400000,
 			"end_date" : 1471557600000,
 			"locality": "Paris",
-			"short_description" : "<p>FlatsWire est une boîte à outils complète conçue pour une gestion de location de vacances rentable et efficace. Accès à un logiciel de gestion immobilière, à un logiciel de gestion locative et à un gestionnaire de canaux, le tout combiné dans une seule application.</br></br>Mon travail consiste à réaliser une application de gestion de réservation saisoniére en équipe. Je me suis aussi occupé d'installer un serveur Grafana afin d'intégrer des graphes dans l'application.</p>",
-			"description" : "<p>FlatsWire est une boîte à outils complète conçue pour une gestion de location de vacances rentable et efficace. Accès à un logiciel de gestion immobilière, à un logiciel de gestion locative et à un gestionnaire de canaux, le tout combiné dans une seule application.</br></br>Mon travail consiste à réaliser une application de gestion de réservation saisoniére en équipe. Je me suis aussi occupé d'installer un serveur Grafana afin d'intégrer des graphes dans l'application.</p>",
+			"short_description" : "<p>FlatsWire est une boîte à outils complète conçue pour une gestion de location de vacances rentable et efficace, donnant accès à un logiciel de gestion immobilière et locative ainsi qu'un gestionnaire de canaux, le tout combiné dans une seule application.</br></br>j'ai travaillé à la réalisation d'une application de gestion de réservation saisonnière en équipe. Je me suis aussi occupé d'installer un serveur Grafana afin d'intégrer des graphes dans l'application.</p>",
+			"description" : "<p>FlatsWire est une boîte à outils complète conçue pour une gestion de location de vacances rentable et efficace, donnant accès à un logiciel de gestion immobilière et locative ainsi qu'un gestionnaire de canaux, le tout combiné dans une seule application.</br></br>j'ai travaillé à la réalisation d'une application de gestion de réservation saisonnière en équipe. Je me suis aussi occupé d'installer un serveur Grafana afin d'intégrer des graphes dans l'application.</p>",
 			"skills" : [
 				"PHP 5 & CodeIgniter",
 				"CouchBase",
@@ -49,13 +70,13 @@
 		{
 			"link" : "http://global-pictures.tv",
 			"name" : "Global Pictures",
-			"status" : "Administrateur Systéme et Developpeur WEB",
+			"status" : "Administrateur Système et Developpeur WEB",
 			"logo" : "./photos/GLOBALPICTURE.png",
 			"start_date" : 1443650400000,
 			"end_date" : 1459375200000,
 			"locality": "Braine le Comte - Belgique",
-			"short_description" : "<p>Global Picture est une société spécialisée dans l'info, le sport et le divertissement en production, post-production et sous-traitants.</br></br> Mon travail à été de réalisé pour l'entreprise leur site vitrine et d'installer, configurer et maintenir l'ensemble de leur service d'information (SFTP, MAIL, NAS)</p>",
-			"description" : "<p>Global Picture est une société spécialisée dans l'info, le sport et le divertissement en production, post-production et sous-traitants.</br></br> Mon travail à été de réalisé pour l'entreprise leur site vitrine et d'installer, configurer et maintenir l'ensemble de leur service d'information (SFTP, MAIL, NAS)</p>",
+			"short_description" : "<p>Global Picture est une société spécialisée dans l'information, le sport et le divertissement en production, post-production et sous-traitants.</br></br> J'ai réalisé leur site vitrine et installé, configuré et maintenu l'ensemble de leurs services d'information (SFTP, MAIL, NAS)</p>",
+			"description" : "<p>Global Picture est une société spécialisée dans l'information, le sport et le divertissement en production, post-production et sous-traitants.</br></br> J'ai réalisé leur site vitrine et installé, configuré et maintenu l'ensemble de leurs services d'information (SFTP, MAIL, NAS)</p>",
 			"skills" : [
 				"Project Management",
 				"PHP 5 & Symfony",
@@ -74,8 +95,8 @@
 			"start_date" : 1409522400000,
 			"end_date" : 1419980400000,
 			"locality": "Bercy",
-			"short_description" : "<p>Le Groupe HN facilite les évolutions de carrière et contribue au renforcement des compétences de ses collaborateurs. Il propose une large gamme de services aux principaux acteurs des secteurs de la banque, de l'assurance, de l'industrie et des services.</p><br/><p>Mon travail est de travailler au développement et à l'amélioration d'un outil de supervision et traitement des flux destiné à un client, de le contruire et d'ajouter diverse fonctionalité suivant la demande du client.</p>",
-			"description" : "<p>Le Groupe HN facilite les évolutions de carrière et contribue au renforcement des compétences de ses collaborateurs. Il propose une large gamme de services aux principaux acteurs des secteurs de la banque, de l'assurance, de l'industrie et des services.</p><br/><p>Mon travail est de travailler au développement et à l'amélioration d'un outil de supervision et traitement des flux destiné à un client, de le contruire et d'ajouter diverse fonctionalité suivant la demande du client.</p>",
+			"short_description" : "<p>Le Groupe HN facilite les évolutions de carrière et contribue au renforcement des compétences de ses collaborateurs. Il propose une large gamme de services aux principaux acteurs des secteurs de la banque, de l'assurance, de l'industrie et des services.</p><br/><p>J'ai participé au développement et à l'amélioration de l'outil de supervision et de traitement des flux destiné à un client, à la construction et à l'ajout de diverses fonctionalités à la demande du client.</p>",
+			"description" : "<p>Le Groupe HN facilite les évolutions de carrière et contribue au renforcement des compétences de ses collaborateurs. Il propose une large gamme de services aux principaux acteurs des secteurs de la banque, de l'assurance, de l'industrie et des services.</p><br/><p>J'ai participé au développement et à l'amélioration de l'outil de supervision et de traitement des flux destiné à un client, à la construction et à l'ajout de diverses fonctionalités à la demande du client.</p>",
 			"skills" : [
 				"Project Management",
 				"Architectural designer",
@@ -93,11 +114,14 @@
 			"locality" : "Paris",
 			"logo" : "./photos/EPITECH.png",
 			"start_date" : 1372636800000,
-			"end_date" : null,
+			"end_date" : 1533074400000,
 			"description" : "",
 			"degree" : [
 				{
 					"name" : "Bachelor en Technologies de l'information - BAC +3"
+				},
+				{
+					"name" : "Titre d'expert en Technologies de l'information - BAC +5"
 				}
 			]
 		},
